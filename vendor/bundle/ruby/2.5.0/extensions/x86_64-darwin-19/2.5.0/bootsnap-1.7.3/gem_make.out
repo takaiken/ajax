@@ -1,0 +1,15 @@
+current directory: /Users/apple/rails/ajax/sample_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.3/ext/bootsnap
+/Users/apple/.rbenv/versions/2.5.1/bin/ruby -I /Users/apple/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210410-11714-10bbxst.rb extconf.rb
+creating Makefile
+
+current directory: /Users/apple/rails/ajax/sample_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/apple/rails/ajax/sample_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/apple/rails/ajax/sample_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.3/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210410-11714-18b8daq/bootsnap
