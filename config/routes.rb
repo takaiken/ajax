@@ -3,7 +3,8 @@ Rails.application.routes.draw do
 
   get 'home/index'
   get 'home/show'
- devise_for :users, :controllers => {
+  post '/home/guest_sign_in', to: 'home#guest_sign_in'
+  devise_for :users, :controllers => {
     :registrations => 'users/registrations',
     :sessions => 'users/sessions'   
   } 
