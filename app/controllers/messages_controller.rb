@@ -13,6 +13,7 @@ class MessagesController < ApplicationController
   # GET /messages/new
   def new
     @message = Message.new
+
   end
 
   # GET /messages/1/edit
@@ -64,6 +65,6 @@ class MessagesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def message_params
-      params.require(:message).permit(:title, :body)
+      params.require(:message).permit(:title, :body, :image)
     end
 end
